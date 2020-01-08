@@ -1,0 +1,190 @@
+
+body
+{
+color:7581a1;
+font-size:16px;
+line-height:26px;
+
+}
+.wrap
+{
+max-weight:1110px;
+margin:0 auto;
+}
+.nav
+{
+
+font-size:12px;
+font-weight:700;
+color:#6e7ea9; 
+text-transform:uppercase;
+list-style-type:none;
+margin:0;
+padding:0;
+
+
+}
+.nav ul
+{
+display:flex; 
+list-style-type:none;
+}
+.nav li{
+padding:0 25px;
+}
+h1
+{
+font-size:80px;
+font-weight:600;
+color:#192b59;
+max-width: 540;
+line-height:1.1;
+letter-spacing:-2.2;
+margin-bottom:65;
+
+}
+.btnitem
+{
+color:#6e7ea9
+}
+.btnfirst
+{
+color:#fff;
+front-size:12px;
+font-weight:700;
+letter-spacing:2.5;
+background-color:#1085e4;
+text-transform:uppercase;
+padding:14px 50px;
+border:1px solid #cbdbe8;
+border-radius:30px;
+
+
+}
+.btnfirst:hover
+{
+color:#000;
+background:white;
+border:1px solid #cbdbe8;
+
+}
+.butfree
+{
+color:#fff;
+front-size:12px;
+font-weight:400;
+background-color:#1085e4;
+text-transform:uppercase;
+padding:20px 40px;
+letter-spacing:2.5;
+border-radius:30px;
+border:1px solid #cbdbe8;
+
+}
+.butfree:hover
+{
+color:#000;
+background:white;
+border:1px solid #cbdbe8;
+
+}
+
+.butsec
+{
+color:#7e8bae;
+front-size:12px;
+font-weight:700;
+background-color:#cbdbe8;
+text-transform:uppercase;
+padding:21px 40px;
+border-radius:30px;
+letter-spacing:2.5;
+border:1px solid #cbdbe8;
+}
+.butsec:hover
+{
+color:#000;
+background:white;
+
+}
+.btngroup a + a
+{
+margin-left:15px;
+color:#fff;
+}
+.list-stat
+{
+display:flex;
+list-style-type:none;
+justify-content; space-around;
+
+}
+.list-stat>li>span
+{
+display:block;
+font-size:60px;
+color: #bacbdc;
+letter-spacing:0px;
+}
+.list-stat>li
+{
+font-size:12px;
+color:#1085e4;
+font-weight:700;
+text-align:center;
+letter-spacing:2px;
+
+}
+
+
+a
+{
+text-decoration:none;
+}
+a+ul
+{
+*/color:red;
+}
+.grid h2
+{
+font-size:40px;
+color:#192b59;
+font-weight:700;
+}
+.grid h2 span
+{
+font-size:14px;
+color:#1085e4;
+display:block;
+}
+.grid-item h3
+{
+font-size:20px;
+font-weight:600;
+color:#192b59;
+}
+.grid-item a
+{
+font-size:14px;
+font-weight:400;
+color:#1085e4;
+}
+.grid-item:nth-child(4)
+{
+color:green;
+}
+ul,ol
+{
+text-trnsforn:upprcase;
+
+}
+.title-h2
+{
+ font-size:50px;
+color:#192b59;
+}
+.title-h2 span
+{
+display:block;
+
+}
