@@ -8,12 +8,11 @@ line-height:26px;
 }
 .wrap
 {
-max-weight:1110px;
+max-width:1110px;
 margin:0 auto;
 }
 .nav
 {
-
 font-size:12px;
 font-weight:700;
 color:#6e7ea9; 
@@ -21,10 +20,8 @@ text-transform:uppercase;
 list-style-type:none;
 margin:0;
 padding:0;
-
-
 }
-.nav ul
+.nav 
 {
 display:flex; 
 list-style-type:none;
@@ -32,9 +29,16 @@ list-style-type:none;
 .nav li{
 padding:0 25px;
 }
+.page-company  
+{
+    display:flex; 
+    justify-content: space-around;
+    margin:40px;
+    list-style-type:none;
+}
 h1
 {
-font-size:81px;
+font-size:80px;
 font-weight:600;
 color:#192b59;
 max-width: 540;
@@ -135,15 +139,9 @@ text-align:center;
 letter-spacing:2px;
 
 }
-
-
 a
 {
 text-decoration:none;
-}
-a+ul
-{
-*/color:red;
 }
 .grid h2
 {
