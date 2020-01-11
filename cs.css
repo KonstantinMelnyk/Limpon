@@ -1,6 +1,7 @@
 
 body
 {
+font-family: 'Open Sans', sans-serif;
 color:7581a1;
 font-size:16px;
 line-height:26px;
@@ -167,9 +168,12 @@ font-size:14px;
 font-weight:400;
 color:#1085e4;
 }
-.grid-item:nth-child(4)
+.appbtn
 {
-color:green;
+
+    text-decoration:none;
+    list-style-type:none;
+    display: flex;  
 }
 ul,ol
 {
