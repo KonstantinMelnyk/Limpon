@@ -17,13 +17,11 @@ margin:0 auto;
 font-size:12px;
 font-weight:700;
 color:#6e7ea9; 
+letter-spacing: 2px;
 text-transform:uppercase;
 list-style-type:none;
 margin:0;
-padding:0;
-}
-.nav 
-{
+padding:10;
 display:flex; 
 list-style-type:none;
 }
@@ -39,13 +37,14 @@ padding:0 25px;
 }
 h1
 {
-font-size:80px;
-font-weight:600;
+font-size:70px;
+font-weight:700;
 color:#192b59;
 max-width: 540;
 line-height:1.1;
-letter-spacing:-2.2;
+letter-spacing:3.2;
 margin-bottom:65;
+margin: 150 200;
 
 }
 .btnitem
@@ -54,15 +53,15 @@ color:#6e7ea9
 }
 .btnfirst
 {
-color:#fff;
-front-size:12px;
-font-weight:700;
-letter-spacing:2.5;
-background-color:#1085e4;
-text-transform:uppercase;
-padding:14px 50px;
-border:1px solid #cbdbe8;
-border-radius:30px;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 2.5;
+    background-color: #1085e4;
+    text-transform: uppercase;
+    padding: 21px 38px;
+    border: 1px solid #cbdbe8;
+    border-radius: 30px;
 
 
 }
@@ -76,7 +75,7 @@ border:1px solid #cbdbe8;
 .butfree
 {
 color:#fff;
-front-size:12px;
+font-size:12px;
 font-weight:400;
 background-color:#1085e4;
 text-transform:uppercase;
@@ -97,7 +96,7 @@ border:1px solid #cbdbe8;
 .butsec
 {
 color:#7e8bae;
-front-size:12px;
+font-size:12px;
 font-weight:700;
 background-color:#cbdbe8;
 text-transform:uppercase;
@@ -121,7 +120,7 @@ color:#fff;
 {
 display:flex;
 list-style-type:none;
-justify-content; space-around;
+justify-content: space-around;
 
 }
 .list-stat>li>span
@@ -130,6 +129,7 @@ display:block;
 font-size:60px;
 color: #bacbdc;
 letter-spacing:0px;
+margin-bottom: 20px;
 }
 .list-stat>li
 {
@@ -168,6 +168,7 @@ font-size:14px;
 font-weight:400;
 color:#1085e4;
 }
+
 .appbtn
 {
 
@@ -177,7 +178,7 @@ color:#1085e4;
 }
 ul,ol
 {
-text-trnsforn:upprcase;
+text-transform:upprcase;
 
 }
 .title-h2
@@ -187,6 +188,112 @@ color:#192b59;
 }
 .title-h2 span
 {
+    font-size:14px;
+    color:#1085e4;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    
 display:block;
 
+}
+.title-h2 p {
+    font-family: 'Open Sans', sans-serif;
+    color:7581a1;
+    font-size:16px;
+    line-height:26px;
+    font-weight:400;
+}
+.page-stat .title-h2{
+    text-align: center;
+    max-width: 500px;
+    letter-spacing: 2px;
+    line-height: 45px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.page-stat{
+    background-color: edf6ff;
+    padding:80px ;
+}
+.page-screan {
+    background-color: edf6ff; 
+    padding:80px ;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.page-screan .title-h2{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin: 30 ;
+    margin-bottom: 30px;
+}
+.box-price{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 20;
+    padding: 0 ;
+    
+}
+.page-plan .title-h2{
+    text-align: center;
+    max-width: 500px;
+    letter-spacing: 2px;
+    line-height: 45px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.active{
+    background-color: #192b59;
+ margin-bottom: 150;  
+}
+.box-item
+{
+    background-color: #f5faff;
+   
+}
+.box-item ul , .active ul{
+
+    list-style-type:none;
+    line-height: 35px;
+    flex-basis: 35%;
+}
+.box-item h3 {
+    
+    font-size: 50px;
+    letter-spacing: -1px;
+    margin-top: 0;
+    margin-bottom: 15;
+}
+.active h3{
+    font-size: 50px;
+    letter-spacing: -1px;
+    margin-top: 0;
+    margin-bottom: 15;
+}
+.box-item h3 span {
+        
+ font-size: 12px ;
+}
+.box-item:first-child h3{
+    margin-bottom: 35px;
+}
+
+.active span {
+font-size: 12px;
+}
+.active li{
+    margin-top: 12;
+    margin-bottom: 14;
+
+}
+.active .butfree{
+    margin-top: 10;
+}
+.box-item li {
+    margin-bottom: 14;
 }
