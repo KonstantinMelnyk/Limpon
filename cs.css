@@ -10,7 +10,23 @@ line-height:26px;
 .wrap
 {
 max-width:1110px;
-margin:0 auto;
+
+
+}
+.box-heder {
+    padding-top:40px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+.page-header{
+    
+    background-size: cover;
+   background-repeat: no-repeat;
+   padding: 30 0 330 ;
+   background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/heder.png);
+   position: relative;
 }
 .nav
 {
@@ -24,6 +40,13 @@ margin:0;
 padding:10;
 display:flex; 
 list-style-type:none;
+
+}
+.logo{
+    display: block;
+    width:181 ;
+    height: 49;
+    background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/logo.png);
 }
 .nav li{
 padding:0 25px;
@@ -31,10 +54,24 @@ padding:0 25px;
 .page-company  
 {
     display:flex; 
-    justify-content: space-around;
-    margin:40px;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    margin:0 auto;
     list-style-type:none;
+    max-width:1110px;
+    
 }
+.box-sponsors{
+    
+    background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/sponsors.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:106 0 99 ;
+}
+
+
 h1
 {
 font-size:70px;
@@ -45,6 +82,7 @@ line-height:1.1;
 letter-spacing:3.2;
 margin-bottom:65;
 margin: 150 200;
+padding-left: 50px;
 
 }
 .btnitem
@@ -111,10 +149,16 @@ color:#000;
 background:white;
 
 }
+.btngroup{
+    margin-bottom: 60px;
+}
+
 .btngroup a + a
 {
 margin-left:15px;
 color:#fff;
+
+
 }
 .list-stat
 {
@@ -247,53 +291,99 @@ display:block;
     margin: 0 auto;
     margin-bottom: 30px;
 }
-.active{
-    background-color: #192b59;
- margin-bottom: 150;  
-}
-.box-item
+
+.box-item,.active
 {
-    background-color: #f5faff;
+  
+   position: relative;
+    background-color: f5faff;
+    padding: 70px 55px 80px;
+    padding-right: 65px;
+    text-align: center;
    
 }
+.active{background-color: #192b59;}
 .box-item ul , .active ul{
 
     list-style-type:none;
+    text-align: center;
     line-height: 35px;
-    flex-basis: 35%;
+    flex-basis: 32%;
+    font-size: 14px;
+    list-style: none;
+    margin: 0 auto 44px;
 }
-.box-item h3 {
+.box-item h3 ,.active h3 {
     
     font-size: 50px;
     letter-spacing: -1px;
     margin-top: 0;
     margin-bottom: 15;
 }
-.active h3{
-    font-size: 50px;
-    letter-spacing: -1px;
-    margin-top: 0;
-    margin-bottom: 15;
+.box-item:first-child h3{
+    margin-bottom: 35px;
 }
 .box-item h3 span {
         
  font-size: 12px ;
 }
-.box-item:first-child h3{
-    margin-bottom: 35px;
-}
 
 .active span {
 font-size: 12px;
 }
-.active li{
+.active li, .box-item li{ 
     margin-top: 12;
     margin-bottom: 14;
+    padding-right: 25px;
+    
 
 }
 .active .butfree{
     margin-top: 10;
 }
-.box-item li {
-    margin-bottom: 14;
+.listo-company-item{
+    display: block;
+    margin: 0;
+    padding: 0;
+    
+
+}
+.company-one{
+    background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/two.png);
+  
+    flex-basis: 198px;
+    height: 58;
+
+}
+.company-two{
+    background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/one.png);
+    flex-basis: 200px;
+    height: 69;
+
+}
+.company-three{
+    background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/three.png);
+    flex-basis: 201px;
+    height: 47;
+}
+.company-four{
+    background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/four.png);
+
+    flex-basis: 200px;
+    height: 69;
+}
+.scren-png{
+  display: block;
+  background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/scr2.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 896px;
+  height: 740;
+  right: 0px;
+  top:250px;
+ 
+}
+.page-subscribe{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,32,144,1) 50%, rgba(35,119,205,1) 100%);
 }
