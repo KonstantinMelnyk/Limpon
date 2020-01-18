@@ -10,7 +10,7 @@ line-height:26px;
 .wrap
 {
 max-width:1110px;
-padding-left: 300px;
+padding-left: 200px;
 
 
 }
@@ -191,13 +191,16 @@ text-decoration:none;
 }
 .grid{
     display: grid;
-    grid-template-areas: "a b c"
-                         "d b c"
-                         "d f g"
-                         "e f g"
-                         "e h h";
+    display: grid;
+    grid-template-areas:
+        "a b c"
+        "d b c"
+        "d f g"
+        "e f g"
+        "e h h";
     max-width: 1110px;
-    margin:0 auto;
+    grid-gap: 53px;
+    margin: 43px auto;
 
 
 
@@ -298,7 +301,18 @@ color:#1085e4;
     height: 96px;
 
 }
-    
+   
+.box-app{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding:0 auto;
+}
+.app-title{
+    font-size: 50px;
+    line-height: 50px;
+   
+}
 
 .appbtn
 {
