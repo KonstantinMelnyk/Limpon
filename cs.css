@@ -10,6 +10,7 @@ line-height:26px;
 .wrap
 {
 max-width:1110px;
+padding-left: 300px;
 
 
 }
@@ -188,6 +189,45 @@ a
 {
 text-decoration:none;
 }
+.grid{
+    display: grid;
+    grid-template-areas: "a b c"
+                         "d b c"
+                         "d f g"
+                         "e f g"
+                         "e h h";
+    max-width: 1110px;
+    margin:0 auto;
+
+
+
+
+}
+.grid-title{
+    grid-area: a;
+
+}
+.grid-item-1{
+    grid-area: b;
+}
+.grid-item-2{
+    grid-area: c;   
+}
+.grid-item-3{
+    grid-area: d;   
+}
+.grid-item-4{
+    grid-area: e;  
+}
+.grid-item-5{
+    grid-area: f;  
+}
+.grid-item-6{
+    grid-area: g;   
+}
+.grid-text{
+    grid-area: h;
+}
 .grid h2
 {
 font-size:40px;
@@ -199,6 +239,10 @@ font-weight:700;
 font-size:14px;
 color:#1085e4;
 display:block;
+}
+.grid-item{
+    text-align: center;
+    box-shadow: 0 0 5px #f2f2f2;
 }
 .grid-item h3
 {
@@ -212,6 +256,49 @@ font-size:14px;
 font-weight:400;
 color:#1085e4;
 }
+.grid-icon{
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+
+}
+.grid-icon-1{
+    background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/icon1.png);
+    width: 83px;
+    height: 84px;
+
+}
+.grid-icon-2{
+    background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/icon2.png);
+    width: 81px;
+    height: 88px;
+
+}
+.grid-icon-3{
+    background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/icon3.png);
+    width: 97px;
+    height: 93px;
+
+}
+.grid-icon-4{
+    background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/icon4.png);
+    width: 113px;
+    height: 98px;
+
+}
+.grid-icon-5{
+    background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/icon5.png);
+    width: 92px;
+    height: 96px;
+
+}
+.grid-icon-6{
+    background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/icon6.png);
+    width: 108px;
+    height: 96px;
+
+}
+    
 
 .appbtn
 {
@@ -243,8 +330,8 @@ display:block;
 }
 .title-h2 p {
     font-family: 'Open Sans', sans-serif;
-    color:7581a1;
-    font-size:16px;
+    
+    
     line-height:26px;
     font-weight:400;
 }
@@ -384,6 +471,61 @@ font-size: 12px;
  
 }
 .page-subscribe{
-    background: rgb(2,0,36);
+background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,32,144,1) 50%, rgba(35,119,205,1) 100%);
+background-size: cover;
+height: 521px;
 }
+.box-subscribe-text{
+    color: #edf6ff;
+    max-width: 413px;
+    font-size: 16px;
+}
+.box-subscribe .title-h2{
+    padding-top: 80px;
+    color: #edf6ff;
+}
+.box-subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.box-subscribe-user ::-webkit-input-placeholder {color:#b1c3ee;}
+.box-subscribe-user::-moz-placeholder          {color:#b1c3ee;}/* Firefox 19+ */
+.box-subscribe-user:-moz-placeholder           {color:#b1c3ee;}/* Firefox 18- */
+.box-subscribe-user:-ms-input-placeholder      {color:#b1c3ee;}
+
+.box-subscribe-user{
+    position: relative;
+}
+.box-subscribe-user input{
+    color: white;
+    border: 2px solid 3c51a9;
+    border-radius: 30px;
+    background-color: transparent;
+    padding:20px 15px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.box-subscribe-user input:focus {
+    outline: none;
+}
+.box-subscribe-user .butfree {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.box-subscribe-user input:focus, .box-subscribe-user .butfree {
+    outline: none;
+}
+.box-subscribe-child{
+    flex-basis: 40%;
+}
+.title-40{
+    max-width: 300px;
+    line-height: 50px;
+}
+    
+
