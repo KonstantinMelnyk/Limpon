@@ -101,6 +101,7 @@ color:#6e7ea9
     padding: 21px 38px;
     border: 1px solid #cbdbe8;
     border-radius: 30px;
+    transition: 0.3s;
 
 
 }
@@ -122,6 +123,7 @@ padding:20px 40px;
 letter-spacing:2.5;
 border-radius:30px;
 border:1px solid #cbdbe8;
+transition: 0.3s;
 
 }
 .butfree:hover
@@ -143,6 +145,7 @@ padding:21px 40px;
 border-radius:30px;
 letter-spacing:2.5;
 border:1px solid #cbdbe8;
+transition: 0.3s;
 }
 .butsec:hover
 {
@@ -199,8 +202,9 @@ text-decoration:none;
         "e f g"
         "e h h";
     max-width: 1110px;
-    grid-gap: 53px;
-    margin: 43px auto;
+    grid-gap: 35px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 35px auto;
 
 
 
@@ -246,6 +250,7 @@ display:block;
 .grid-item{
     text-align: center;
     box-shadow: 0 0 5px #f2f2f2;
+
 }
 .grid-item h3
 {
@@ -263,42 +268,101 @@ color:#1085e4;
     background-repeat: no-repeat;
     display: block;
     margin: 0 auto;
+    height: 98px;
+    background-position: center;
 
 }
 .grid-icon-1{
     background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/icon1.png);
-    width: 83px;
-    height: 84px;
+   background-size: 83 84;
+  
 
 }
 .grid-icon-2{
     background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/icon2.png);
-    width: 81px;
-    height: 88px;
+    
+    background-size: 81 88;
 
 }
 .grid-icon-3{
     background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/icon3.png);
-    width: 97px;
-    height: 93px;
+  
+    background-size: 97 93;
 
 }
 .grid-icon-4{
     background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/icon4.png);
-    width: 113px;
-    height: 98px;
+   
+    background-size:113 98;
 
 }
 .grid-icon-5{
     background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/icon5.png);
-    width: 92px;
-    height: 96px;
-
+    
+    background-size: 92 96;
 }
 .grid-icon-6{
     background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/icon6.png);
-    width: 108px;
-    height: 96px;
+  
+    background-size: 108 96;
+
+}
+.page-software{
+    position: relative;
+    height: 1020px;
+}
+.page-software-screen{
+    position: absolute;
+    background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/feauters-scr.png);
+    width: 1007;
+    height:805 ;
+    left: 0;
+    top: 95;
+}
+.page-software-bg{
+    background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/feauters-bg.png);
+   
+    width: 1644px;
+    height: 996px;
+}
+
+.page-software .title-h2{
+    max-width: 500px;
+    line-height: 50px;
+}
+.page-software-flex{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.page-software-flex div{
+    flex-basis: 44%;
+}
+
+.page-software-icons{
+    display:block;
+    background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/logoin.png);
+    width: 132;
+    height:132;
+    background-repeat: no-repeat;
+    background-position: -27px 0 ;
+}
+.page-software-list{
+    margin-top: 50px;
+    height: 340px;
+    overflow: hidden;
+    overflow-y: scroll;
+   
+}
+.page-software-list dt{
+    font-weight: 500;
+    color: #192b59;
+
+
+}
+.page-software-list dd{
+   margin: 30 auto 50;
+   margin-left: 0;
 
 }
    
