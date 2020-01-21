@@ -324,6 +324,7 @@ color:#1085e4;
    
     width: 1644px;
     height: 996px;
+    overflow: hidden;
 }
 
 .page-software .title-h2{
@@ -354,6 +355,11 @@ color:#1085e4;
     overflow-y: scroll;
    
 }
+.page-software-list::-webkit-scrollbar { width: 4px; height: 4px;}
+.page-software-list::-webkit-scrollbar-button {  background-color: #1085e4; }
+.page-software-list::-webkit-scrollbar-track-piece { background-color: #f3f6ff;}
+.page-software-list::-webkit-scrollbar-thumb { height: 50px; background-color: #1085e4; border-radius: 5px;}
+
 .page-software-list dt{
     font-weight: 500;
     color: #192b59;
@@ -365,6 +371,7 @@ color:#1085e4;
    margin-left: 0;
 
 }
+
    
 .box-app{
     display: flex;
@@ -372,19 +379,50 @@ color:#1085e4;
     align-items: center;
    padding:0 auto;
 }
+.boa-app-avalible{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+
+}
 .app-title{
     font-size: 50px;
     line-height: 50px;
    
 }
 
-.appbtn
-{
-
-    text-decoration:none;
+.app-btn
+{   text-decoration:none;
     list-style-type:none;
-    display: flex;  
+    display: flex;
+    padding-left: 0;
+   
 }
+.app-btn>li>a{
+    background-image: url(file:///C:/Users/%D0%A2%D1%80%D1%83%D0%B4%D1%8F%D0%B3%D0%B0/Documents/GitHub/Limpon/app-btn.png);
+    display: inline-block;
+    width: 185px;
+    height: 70px;
+    background-repeat: no-repeat;
+}
+.box-app-andriod{
+    background-position: 0 0;
+
+}
+.app-btn>li>a.box-app-apple{
+    background-position: -192px 0;
+}
+.page-info1{
+  
+   height: 700px;
+}
+.info1-flex{
+    display: flex;
+}
+.page-info1-text{
+    margin-bottom: 50;
+}
+
 ul,ol
 {
 text-transform:upprcase;
